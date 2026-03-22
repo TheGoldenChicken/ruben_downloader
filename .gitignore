@@ -1,0 +1,33 @@
+# ── Generated audio directories ───────────────────────────────────────────────
+ruben_episodes/
+ruben_trimmed/
+ruben_content/
+
+# ── Audiobook output ───────────────────────────────────────────────────────────
+*.m4b
+
+# ── Review logs ────────────────────────────────────────────────────────────────
+manual_review.txt
+supertrim_review.txt
+
+# ── Diagnostic output ──────────────────────────────────────────────────────────
+correlation_plot.png
+
+# ── Reference audio clips ──────────────────────────────────────────────────────
+# jingle_start.mp3
+# jingle_end_*.mp3
+# supertrim_intro.mp3
+# supertrim_outro.mp3
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ── OS ─────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
